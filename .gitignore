@@ -1,0 +1,31 @@
+# ============================================
+# GIT IGNORE - SENSIBLE DATEN
+# ============================================
+# Diese Dateien werden NICHT zu GitHub hochgeladen
+
+# Environment Variables mit API-Keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
